@@ -26,7 +26,7 @@ public class Executioner {
   }
 
   public boolean displayEqualsSecret(DisplayWord display) {
-    return display.toString().equals(mySecretWord);
+    return display.equals(mySecretWord);
   }
 
   // Returns true only if given guess is in the secret word.
